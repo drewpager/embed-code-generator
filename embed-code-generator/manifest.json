@@ -1,0 +1,20 @@
+{
+  "name" : "Embed Code Generator",
+  "version" : "1.0.1",
+  "description" : "Generate embed codes directly in the browser",
+  "background" : { "scripts": ["background.js"] },
+  "permissions" : [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "icons" : {
+    "16" : "siege-sm-16.png",
+    "48" : "siege-sm-48.png",
+    "128" : "siege-sm-128.png"
+  },
+  "manifest_version": 2
+}
